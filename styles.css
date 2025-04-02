@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
     color: #333;
@@ -86,6 +86,47 @@ h1{
     line-height: 1.6;
     margin-bottom: 15px;
     font-size: 1rem;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #ff6b81;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-section li {
+    margin: 10px 0;
+}
+
+.contact-section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
 }
 
 main {
