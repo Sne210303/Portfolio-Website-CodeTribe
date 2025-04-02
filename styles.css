@@ -5,6 +5,10 @@ body {
     padding: 20px;
 }
 
+h1{
+    color: #ff6b81;
+}
+
 
 header {
     background-color: #333;
@@ -39,6 +43,14 @@ header {
     color: #ff6b81;
 }
 
+.profile-section .bio h1{
+    color: #ff6b81;
+}
+
+.about-section h2{
+    color: #ff6b81;
+}
+
 main {
     margin-top: 20px;
 }
@@ -54,6 +66,14 @@ main {
     max-width: 600px;
     height: auto;
     border-radius: 8px;
+}
+
+.container p{
+    color: #ff6b81;
+}
+
+.container li{
+    color: #ff6b81;
 }
 
 
