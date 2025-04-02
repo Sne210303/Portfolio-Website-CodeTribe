@@ -109,7 +109,8 @@ header .navbar {
 .profile-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
     background-color: #ffffff;
     padding: 20px;
@@ -118,6 +119,7 @@ header .navbar {
     margin-top: 40px;
     max-width: 900px;
     transition: transform 0.3s ease-in-out;
+    width: 100%;
 }
 
 .profile-section:hover {
@@ -127,18 +129,28 @@ header .navbar {
 .bio {
     max-width: 100%;
     text-align: center;
+    max-width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 .bio h1 {
     font-size: 2rem;
 }
 
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .photo img {
-    width: 180px;
-    height: 180px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ff6b81;
+    
 }
 
 @media (max-width: 768px) {
