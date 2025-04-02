@@ -211,6 +211,11 @@ main {
     margin-bottom: 1rem;
 }
 
+.about-section img{
+    width: 18px;
+    height: 18px;  
+}
+
 
 .photo img {
     width: 230px;
