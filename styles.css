@@ -3,18 +3,37 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: white;
 }
 
 h1{
     color: #ff6b81;
 }
 
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-}
 
 .navbar {
     display: flex;
@@ -47,12 +66,34 @@ header {
     color: #ff6b81;
 }
 
-.about-section h2{
+.about-section {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section h2 {
     color: #ff6b81;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1rem;
 }
 
 main {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
 }
 
 
@@ -106,12 +147,11 @@ main {
 
 
 footer {
+    color: white;
     text-align: center;
-    font-size: 1rem;
+    padding: 15px;
     margin-top: 40px;
-    padding: 20px;
     background-color: #333;
-    color: #fff;
 }
 
 footer a {
@@ -126,6 +166,7 @@ footer a:hover {
     background-color: #ff6b81;
     border-radius: 4px;
     padding: 0.2rem 0.6rem;
+    text-decoration: underline;
 }
 
 
