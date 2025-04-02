@@ -10,6 +10,20 @@ header {
     padding: 10px;
 }
 
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    text-align: center;
+    color: #333;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,6 +35,17 @@ header {
     height: 70px;
 }
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
 .nav-links {
     list-style: none;
     display: flex;
@@ -72,3 +97,14 @@ footer a {
     margin: 0 5px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
