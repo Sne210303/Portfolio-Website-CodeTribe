@@ -196,11 +196,13 @@ header .navbar {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
-    max-width: 900px;
+    margin: 40px auto; 
+    max-width: 100%; 
+    width: 90%;
     transition: transform 0.3s ease-in-out;
-    width: 100%;
 }
+
+
 
 .profile-section:hover {
     transform: translateY(-5px);
