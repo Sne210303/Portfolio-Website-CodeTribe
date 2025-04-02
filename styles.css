@@ -165,27 +165,40 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
     margin-top: 40px;
+    max-width: 900px; 
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
 }
 
+.profile-section:hover {
+    transform: translateY(-5px); 
+}
+
+
 .bio {
-    max-width: 50%;
+    max-width: 60%;
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
 .bio h1 {
-    color: #333;
+    color: #ff6b81;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
+
 .photo img {
-    width: 90%; 
-    max-width: 220px;
-    height:fit-content;
-    border-radius: 80%;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
     object-fit: cover;
+    border: 2px solid #ff6b81; 
 }
 
 
