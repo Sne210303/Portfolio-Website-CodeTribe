@@ -5,13 +5,25 @@ menuIcon.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
 
+
 const contactForm = document.getElementById('contact-form');
 
 if (contactForm) {
     contactForm.addEventListener('submit', function(event) {
         event.preventDefault(); 
-        alert("Thank you! Your message has been received. We'll be in touch soon!");
-        contactForm.reset(); 
+        
+        Swal.fire({
+            title: 'Thank You!',
+            text: "Your message has been received. We'll be in touch soon!",
+            icon: 'success',
+            showConfirmButton: false, 
+            timer: 3000, 
+            timerProgressBar: true, 
+        });
+
+        contactForm.reset();
     });
 }
+
+
 
