@@ -3,63 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>Contact Me - Snenhlanhla</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
     <header>
         <nav class="navbar">
-            <div class="logo"><img src="logo.jpeg" alt="Logo"></div>
-            <ul class="nav-links">
+            <div class="logo">
+                <img src="logo.jpeg" alt="Logo">
+            </div>
+
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+
+            <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="contact.html" class="active-link">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="contact-section">
-            <h2>Get In Touch</h2>
-            <p>You can reach me via:</p>
-            <ul>
-                <li>Email: 
-                    <a href="mailto:snenhlanhlamkhwanazi24@gmail.com">
-                        <i class="fas fa-envelope"></i> snenhlanhlamkhwanazi24@gmail.com
-                    </a>
-                </li>
-                <li>Phone: 
-                    <a href="tel:+27659987903">
-                        <i class="fas fa-phone-alt"></i> 065 998 7903
-                    </a>
-                </li>
-                <li>Social Media:
-                    <ul class="social-links">
-                        <li>
-                            <a href="https://www.facebook.com/paciencia.precious/" target="_blank">
-                                <i class="fab fa-facebook"></i> Facebook
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://x.com/Snenhla79084643" target="_blank">
-                                <i class="fab fa-twitter"></i> Twitter
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/snenhlanhla-mkhwanazi-6b55561a9/" target="_blank">
-                                <i class="fab fa-linkedin"></i> LinkedIn
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+        <section class="contact-content">
+            <h1>Contact Me</h1>
+            <p>If you would like to work together, have any questions, or just want to connect, feel free to reach out!</p>
+
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>Go back to <a href="index.html">Home</a></p>
+        <p>Connect with me:</p>
+        <a href="https://www.facebook.com/paciencia.precious/">Facebook</a> | 
+        <a href="https://x.com/Snenhla79084643">Twitter</a> | 
+        <a href="https://www.linkedin.com/in/snenhlanhla-mkhwanazi-6b55561a9/">LinkedIn</a>
+        <p>Phone: 0659987903</p>
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+
+
+
 
