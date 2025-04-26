@@ -5,6 +5,7 @@ menuIcon.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
 
+
 const contactForm = document.getElementById('contact-form');
 
 if (contactForm) {
@@ -30,12 +31,14 @@ if (contactForm) {
                 showConfirmButton: false,
                 timer: 3000,
                 timerProgressBar: true,
+                showClass: {
+                    popup: 'animate__animated animate__bounceIn' 
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp' 
+                }
             });
             contactForm.reset(); 
-        }, 2000); 
+        }, 2000);
     });
 }
-
-
-
-
