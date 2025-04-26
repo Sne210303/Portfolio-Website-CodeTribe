@@ -6,17 +6,26 @@
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <header>
         <nav class="navbar">
-            <div class="logo"><img src="logo.jpeg" alt="Logo"></div>
+            <div class="logo">
+                <img src="logo.jpeg" alt="Logo">
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
+        <button id="mode-toggle" title="Toggle Light/Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
     </header>
 
     <main>
@@ -30,5 +39,12 @@
     <footer>
         <p>Go back to <a href="index.html">Home</a> | <a href="contact.html">Contact Me</a></p>
     </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
